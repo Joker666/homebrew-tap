@@ -7,7 +7,7 @@ cask "reflex" do
   desc "Route web links to the appropriate browser and profile"
   homepage "https://github.com/Joker666/Reflex"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Reflex.app"
 
